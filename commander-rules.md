@@ -4,8 +4,8 @@
 
 * Must have exactly one commander, unless you have two commanders with the "Partner" ability, then exactly two ([903.3] + [702.123a]).
 * Commanders must be legendary creatures or planeswalkers with the ability "_this_ can be your commander" ([903.3])
- - Valid commanders:              !scryfall legal:commander ((o:commander t:planeswalker) or (t:legendary t:creature))
- - Valid planeswalker commanders: !scryfall legal:commander ((t:legendary t:creature) or o:commander) t:planeswalker
+ - Valid commanders:              [!scryfall legal:commander ((o:commander t:planeswalker) or (t:legendary t:creature))][Commanders]
+ - Valid planeswalker commanders: [!scryfall legal:commander ((t:legendary t:creature) or o:commander) t:planeswalker][Planeswalker Commanders]
 * Exactly 100 cards in a deck, including the commander(s) ([903.5a]).
 * For each English card name, except basic lands, only a single card is allowed ([903.5b]). This limitation can be overwritten by a card's rule text.
 * Each card's color identity must be a subset of the union of your commanders' color identity ([903.4] + [903.5c] + [702.123d]).
@@ -33,9 +33,12 @@
 [903.5a]:         https://yawgatog.com/resources/magic-rules/#R9035a
 [903.5b]:         https://yawgatog.com/resources/magic-rules/#R9035b
 [903.5c]:         https://yawgatog.com/resources/magic-rules/#R9035c
-[903.6]:          https://yawgatog.com/resources/magic-rules/#R9037
+[903.6]:          https://yawgatog.com/resources/magic-rules/#R9036
 [903.7]:          https://yawgatog.com/resources/magic-rules/#R9037
 [903.8]:          https://yawgatog.com/resources/magic-rules/#R9038
 [903.9]:          https://yawgatog.com/resources/magic-rules/#R9039
 [903.10a]:        https://yawgatog.com/resources/magic-rules/#R90310a
 [EDH Play Rules]: http://www.mtgcommander.net/rules.php?PRINT=1#PLrules_div
+
+[Commanders]: https://scryfall.com/search?q=legal%3Acommander%20((o%3Acommander%20t%3Aplaneswalker)%20or%20(t%3Alegendary%20t%3Acreature))
+[Planeswalker Commanders]: https://scryfall.com/search?q=legal%3Acommander%20((t%3Alegendary%20t%3Acreature)%20or%20o%3Acommander)%20t%3Aplaneswalker
